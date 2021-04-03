@@ -23,9 +23,6 @@
     font-weight:100;
     padding-left: 20px;
   }
-  .validation-msg{
-    color: red;
-  }
  
   .top_head_band{
       width: 100%;
@@ -40,34 +37,24 @@
   padding-bottom: 5px;
   color: white;
   }
-  /* .img_site{
-    vertical-align: middle;
-    padding-bottom: 40px;
-    padding-top: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-  } */
   .img_style{
   
     display: inline-flex;
   padding-right: 12px;
   text-align: right;
   }
-  .sub_head{
+  /* .sub_head{
     padding-top: 20px;
     font-size: x-large;
     padding-left: 20px;
-  }
-  .details{
+  } */
+  /* .details{
     padding-top: 20px ;
     text-align: center;
-  }
-  .form-control
+  } */
+  /* .form-control
   { width: min-content;
-
-  }
+  } */
 .mycontainer{
   padding-left: 30%;
 }
@@ -80,12 +67,6 @@
   border-color: #323433;
   background-color: #323433;
 }
-.home
-  { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 25px;
-    padding-left: 30px;
-    font-size:medium;
-  }
   ul{
     list-style: none;
     display: flex;
@@ -114,26 +95,20 @@
     padding-right: 12px;
     padding-left:12px;
   }
-  .home-id .user-id{
+  /* .home-id .user-id{
     text-decoration: none;
 
-  }
-  ul{
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center; 
-}
+  } */
+
 a{ text-decoration: none;
   cursor: pointer;
 }
 .currentActive{
   color: black;
 }
-.myShadow{
+/* .myShadow{
   border-radius: 6px;
   box-shadow: 10px 10px #D3D3D3;
   border-width: 2px;
   border-color: #C1C1C1;
-}
+} */

@@ -6,3 +6,15 @@
   .mycontainer{
     padding-left: 30%;
   }
+  .form-control
+  { width: min-content;
+  }
+
+.back-violet {
+  border-color: #9e6df7;
+  background-color:#9e6df7 ;
+}
+.back-black{
+  border-color: #323433;
+  background-color: #323433;
+}
