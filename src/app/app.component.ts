@@ -7,7 +7,7 @@ import {UsersService} from './users.service';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-
+  visibleUser=1;
   constructor(public router:Router) {
     
   }

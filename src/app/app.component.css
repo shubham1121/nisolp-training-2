@@ -58,15 +58,6 @@
 .mycontainer{
   padding-left: 30%;
 }
-
-.back-violet {
-  border-color: #9e6df7;
-  background-color:#9e6df7 ;
-}
-.back-black{
-  border-color: #323433;
-  background-color: #323433;
-}
   ul{
     list-style: none;
     display: flex;
@@ -86,7 +77,7 @@
   width: 20px;
 }
      ul .link-section li
-{
+{ color: white;
   padding: 0 12px;
 }
   .nipsol-site
