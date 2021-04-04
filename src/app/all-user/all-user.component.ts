@@ -9,7 +9,7 @@ import { UsersService } from '../users.service';
 export class AllUserComponent implements OnInit {
  userDetails=[];
   constructor(private userService:UsersService) { 
-    this.userDetails.push(this.userService.userData);
+    this.userDetails=userService.getUserData();
   }
   
   ngOnInit(): void {

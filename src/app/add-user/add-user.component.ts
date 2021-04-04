@@ -15,17 +15,17 @@ export class AddUserComponent implements OnInit {
   }
   createNewUser(){
   this.userDetails = this.fb.group({
-    userName: new FormControl(),
-    userEmail: new FormControl('',Validators.required),
-    userPhone: new FormControl('',[Validators.required, Validators.pattern("[0-9 ]{10}")]),
-    userAddress: new FormControl(),
+    userName: [''],
+    userEmail: ['',Validators.required],
+    userPhone: ['',[Validators.required, Validators.pattern("[0-9 ]{10}")]],
+    userAddress: [''],
   })
 }
   get email(){return this.userDetails.get('userEmail');}
   get phone(){return this.userDetails.get('userPhone');}
  onSubmit()
   {
-    this.userService.collectData(this.userDetails);
+    this.userService.collectData(this.userDetails.value);
   }
 
 }

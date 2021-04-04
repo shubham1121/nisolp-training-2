@@ -5,7 +5,7 @@ import {FormGroup} from '@angular/forms';
 })
 export class UsersService {
 
-public userData=[];
+public userData:any[]=[];
 
 collectData(userDetails:FormGroup)
 {
