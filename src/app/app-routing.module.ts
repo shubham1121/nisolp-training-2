@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { AddUserComponent } from './add-user/add-user.component';
 import { AllUserComponent } from './all-user/all-user.component';
+import {CovidMeterComponent} from './covid-meter/covid-meter.component';
 
 const routes: Routes=[
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
@@ -19,6 +20,10 @@ const routes: Routes=[
     path: 'all-user',
     component: AllUserComponent,
   },
+  {
+    path:'covid-meter',
+    component:CovidMeterComponent,
+  }
 ];
 
 @NgModule({
@@ -29,4 +34,4 @@ const routes: Routes=[
   exports: [RouterModule],
 })
 export class AppRoutingModule { }
-export const routingComponents = [HomeComponent,AddUserComponent,AllUserComponent];
+export const routingComponents = [HomeComponent,AddUserComponent,AllUserComponent,CovidMeterComponent];
