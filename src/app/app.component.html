@@ -16,13 +16,13 @@
   <div class="sub_head_band">
     <ul>
       <div class="link-section">
-        <li [ngClass]="{'currentActive' : visibleUser==1?true:false}"><a (click)="visibleUser=1" routerLink="/home">
+        <li [ngClass]="{'currentActive' : (router.url === '/home') || router.url === '/'}"><a routerLink="/home">
             <strong>Home</strong> </a> </li>
-        <li [ngClass]="{'currentActive' : visibleUser==2?true:false}">
-          <a (click)="visibleUser=2" routerLink="/add-user"><strong> +Add User </strong></a>
+        <li [ngClass]="{'currentActive' : (router.url === '/add-user') || router.url === '/'}">
+          <a  routerLink="/add-user"><strong> +Add User </strong></a>
         </li>
-        <li [ngClass]="{'currentActive' : visibleUser==3?true:false}">
-          <a (click)="visibleUser=3" routerLink="/all-user"><strong> ALL USERS </strong></a>
+        <li [ngClass]="{'currentActive' : (router.url === '/all-user') || router.url === '/'}">
+          <a  routerLink="/all-user"><strong> ALL USERS </strong></a>
         </li>
       </div>
       <li class="img_style">

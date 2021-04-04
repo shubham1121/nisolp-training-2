@@ -43,21 +43,6 @@
   padding-right: 12px;
   text-align: right;
   }
-  /* .sub_head{
-    padding-top: 20px;
-    font-size: x-large;
-    padding-left: 20px;
-  } */
-  /* .details{
-    padding-top: 20px ;
-    text-align: center;
-  } */
-  /* .form-control
-  { width: min-content;
-  } */
-.mycontainer{
-  padding-left: 30%;
-}
   ul{
     list-style: none;
     display: flex;
@@ -86,20 +71,14 @@
     padding-right: 12px;
     padding-left:12px;
   }
-  /* .home-id .user-id{
-    text-decoration: none;
 
-  } */
-
-a{ text-decoration: none;
+a 
+{ text-decoration: none;
   cursor: pointer;
+  color:white;
 }
 .currentActive{
-  color: black;
+  margin-top: 2px;
+  background-color: black;
+  border-radius: 10px;
 }
-/* .myShadow{
-  border-radius: 6px;
-  box-shadow: 10px 10px #D3D3D3;
-  border-width: 2px;
-  border-color: #C1C1C1;
-} */
