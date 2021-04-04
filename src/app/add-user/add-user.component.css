@@ -9,6 +9,9 @@
   .form-control
   { width: min-content;
   }
+  .validation-msg{
+     color: red;
+  }
 
 .back-violet {
   border-color: #9e6df7;
