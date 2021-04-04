@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {UsersService} from '../users.service';
 @Component({
   selector: 'app-covid-meter',
   templateUrl: './covid-meter.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CovidMeterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private countryData:UsersService) { }
 
   ngOnInit() {
   }
